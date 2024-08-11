@@ -1,0 +1,70 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: url('./iris_back.jpeg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 400px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px rgba(40, 40, 40, 0.9);
+    background: rgba(40, 40, 40, 0.119);
+}
+
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    row-gap: 5px;
+    font-weight: 500;
+}
+
+.input {
+    width: 300px;
+    height: 35px;
+    border: 0.5px solid bisque;
+    background: rgba(255, 255, 255, 0.677);
+    border-radius: 5px;
+    font-size: medium;
+    padding-inline: 5px;
+}
+
+.input::placeholder {
+    color: #002fff6e;
+    font-size: small;
+    padding-inline: 5px;
+}
+
+p {
+    height: 40px;
+    text-align: center;
+    font-size: large;
+    background: rgba(255, 255, 255, 0.677);
+    border-radius: 5px;
+    color: black;
+    align-content: center;
+}
+
+.button {
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    background: rgb(105, 97, 193);
+    font-size: larger;
+    font-weight: 600;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
